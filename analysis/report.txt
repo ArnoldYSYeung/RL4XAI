@@ -1,0 +1,98 @@
+-------LOCAL SIMULATABILITY SCORE PER LOCAL EXPLANATION------------
+
+hm_bl
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size       p_value
+0  sim_score_tp_norm   7.100000  13.984317          91    -0.569004   13.053309           271     0.576956  2.782248e-06
+1  sim_score_tn_norm   9.079121  15.405948          91    -0.776384   12.048939           271     0.759875  1.023292e-09
+2  sim_score_fp_norm  -0.464444  20.451869          90     0.734926   13.491186           272     0.077351  5.251231e-01
+3  sim_score_fn_norm  -2.288889  12.928493          90    -1.301471   10.752880           272     0.087153  4.740265e-01
+4     sim_score_norm        NaN        NaN           0     1.949724   26.135821           362          NaN           NaN
+
+hm_exp
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size       p_value
+0  sim_score_tp_norm  16.449091  13.898186          55    -1.692013   14.916469           313     1.228186  9.950641e-16
+1  sim_score_tn_norm  13.837374  14.739379          99    -3.103717   11.670878           269     1.348151  3.199532e-26
+2  sim_score_fp_norm   9.275000  16.867455         152    -4.693519   16.102175           216     0.850586  1.307728e-14
+3  sim_score_fn_norm   5.895161  12.363423          62    -2.587255   10.513311           306     0.782250  3.857672e-08
+4     sim_score_norm        NaN        NaN           0     2.391033   27.778091           368          NaN           NaN
+
+proto_bl
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size       p_value
+0  sim_score_tp_norm   9.655405  14.742011          74    -0.819816   14.757764           217     0.710002  2.617298e-07
+1  sim_score_tn_norm   8.240000  10.682797          75    -0.228704   10.036311           216     0.829797  2.041956e-09
+2  sim_score_fp_norm   0.243836  15.679923          73     0.063761   12.808268           218     0.013260  9.219556e-01
+3  sim_score_fn_norm  -4.013043  11.811621          69    -0.656757   10.151777           222     0.317655  2.189329e-02
+4     sim_score_norm        NaN        NaN           0     2.454296   25.229404           291          NaN           NaN
+
+proto_exp
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size       p_value
+0  sim_score_tp_norm  23.592857  15.691063          42    -1.274653   13.601830           288     1.791583  1.250749e-23
+1  sim_score_tn_norm  11.485057  13.355110          87    -2.661728   10.635065           243     1.239735  1.822214e-20
+2  sim_score_fp_norm   8.412676  18.010662         142    -3.594149   14.740000           188     0.739930  1.189352e-10
+3  sim_score_fn_norm   5.611864  13.019536          59    -2.163100   10.628360           271     0.701156  1.654332e-06
+4     sim_score_norm        NaN        NaN           0     3.757576   25.661537           330          NaN           NaN
+
+multi_bl
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size   p_value
+0  sim_score_tp_norm   9.561364  15.499095          44     1.046497   13.747695           314     0.609471  0.000179
+1  sim_score_tn_norm   7.845652  14.729678          46     0.196154   13.731281           312     0.551854  0.000536
+2  sim_score_fp_norm  -2.204651  17.000097          43     1.526349   15.230054           315     0.241498  0.138307
+3  sim_score_fn_norm  -3.285106  15.630613          47    -0.948232   12.418921           311     0.181448  0.247064
+4  sim_score_tp_norm   5.923256  11.501467          43     1.570159   14.499225           315     0.307019  0.059773
+5  sim_score_tn_norm   6.582222  15.028855          45     0.402236   13.787175           313     0.443117  0.005735
+6  sim_score_fn_norm  -1.733333  18.812145          45    -1.186262   11.833440           313     0.042402  0.790421
+7  sim_score_fp_norm   3.371111  22.812224          45     0.748562   14.134253           313     0.169495  0.288435
+8     sim_score_norm        NaN        NaN           0     3.095251   25.939714           358          NaN       NaN
+
+multi_exp
+               score  corr_mean   corr_err  corr_count  uncorr_mean  uncorr_err  uncorr_count  effect_size       p_value
+0  sim_score_tp_norm  22.120000  14.246914          15    -0.200904   15.319027           332     1.461080  6.167313e-08
+1  sim_score_tn_norm  15.406452  13.674451          31     1.332911   13.202150           316     1.062644  3.431954e-08
+2  sim_score_fp_norm   4.834722  14.581361          72     0.141091   13.768143           275     0.336717  1.141034e-02
+3  sim_score_fn_norm  -3.147059   9.642232          17    -0.841515   10.334241           330     0.223770  3.688841e-01
+4  sim_score_tp_norm  18.779070  15.352052          43    -1.784211   14.286143           304     1.426013  9.441565e-17
+5  sim_score_tn_norm  14.937500  14.586825          56     0.214089   12.348605           291     1.156427  3.185834e-14
+6  sim_score_fn_norm   6.293548  14.269850          31    -1.665506    9.563886           316     0.791090  3.355501e-05
+7  sim_score_fp_norm   5.674390  14.555461          82    -0.295849   13.609801           265     0.431449  7.157402e-04
+8     sim_score_norm        NaN        NaN           0     3.514697   24.576036           347          NaN           NaN
+
+-------OVERALL SIMULATABILITY SCORE ACROSS ALL EXPLANATION------------
+
+  experiment   bl_mean    bl_err  bl_count  exp_mean   exp_err  exp_count  effect_size   p_value
+0         hm  1.949724  1.373668     362.0  2.391033  1.448033      368.0     0.016359  0.825160
+1      proto  2.454296  1.478974     291.0  3.757576  1.412621      330.0     0.051189  0.524649
+2      multi  3.095251  1.370956     358.0  3.514697  1.319311      347.0     0.016593  0.825727
+
+-------OVERALL SIMULATABILITY SCORE PER LOCAL EXPLANATION------------
+
+hm
+             name  action   bl_mean     bl_err  bl_count   exp_mean    exp_err  exp_count  effect_size   p_value
+0  rbp_heatmap_tp      26  4.720879  26.662827        91   4.274545  28.026279         55     0.016420  0.923543
+1  rbp_heatmap_tn      27  3.553846  25.028705        91   1.371717  25.788524         99     0.085817  0.555277
+2  rbp_heatmap_fp      28 -2.451111  30.435898        90   7.691447  28.185976        152     0.349254  0.009198
+3  rbp_heatmap_fn      29  1.926667  21.492297        90 -10.646774  25.775193         62     0.538960  0.001354
+
+proto
+               name  action   bl_mean     bl_err  bl_count   exp_mean    exp_err  exp_count  effect_size   p_value
+0  rbp_prototype_tp      30  9.395946  24.218822        74  16.450000  31.058146         42     0.262430  0.177021
+1  rbp_prototype_tn      31  1.650667  23.909177        75   0.089655  21.975102         87     0.068196  0.665738
+2  rbp_prototype_fp      32  2.995890  27.721499        73   6.865493  23.583770        142     0.154420  0.284829
+3  rbp_prototype_fn      33 -4.689855  23.321085        69  -7.349153  26.445366         59     0.107194  0.546578
+
+multi
+                 name  action    bl_mean     bl_err  bl_count   exp_mean    exp_err  exp_count  effect_size   p_value
+0  rbp_multi_proto_tp      43  13.050000  28.081381        44  18.460000  36.056420         15     0.178928  0.551914
+1  rbp_multi_proto_tn      44   1.293478  25.754813        46   9.051613  22.559918         31     0.316312  0.177518
+2  rbp_multi_proto_fp      45  -4.374419  24.537766        43  -0.625000  25.165082         72     0.150375  0.436882
+3  rbp_multi_proto_fn      46   3.957447  19.264461        47  -9.517647  26.635391         17     0.629355  0.029820
+4     rbp_multi_hm_tp      47   0.458140  19.869230        43  10.111628  28.324465         43     0.394585  0.070855
+5     rbp_multi_hm_tn      48   6.046667  22.817294        45   2.803571  23.039791         56     0.141366  0.481767
+6     rbp_multi_hm_fn      49  -0.268889  22.415050        45  -3.603226  22.396555         31     0.148804  0.525752
+7     rbp_multi_hm_fp      50   4.373333  38.222955        45   4.741463  18.999337         82     0.013459  0.942284
+
+-------SUMMARY SIMULATABILITY------------
+
+  experiment  policy_corr_mean  random_corr_mean  policy_corr_std  random_corr_std  policy_corr_se  random_corr_se  policy_corr_count  random_corr_count   bl_mean    bl_err  bl_count  exp_mean   exp_err  exp_count      policy_p  random_p
+0         hm         11.005163          3.382597        15.212573        15.971281        0.793010        0.839432                368                362  1.949724  1.373668     362.0  2.391033  1.448033      368.0  2.160662e-25  0.089434
+1      proto         10.653939          3.688660        15.787344        13.418858        0.869065        0.786627                330                291  2.454296  1.478974     291.0  3.757576  1.412621      330.0  1.141848e-14  0.119367
+2      multi          9.822478          3.231844        14.381298        16.708573        0.772029        0.883076                347                358  3.095251  1.370956     358.0  3.514697  1.319311      347.0  1.891223e-15  0.877527
