@@ -1,0 +1,3 @@
+Index: 595    Weight: 0.57
+Index: 1413    Weight: 0.2
+Index: 1390    Weight: 0.23

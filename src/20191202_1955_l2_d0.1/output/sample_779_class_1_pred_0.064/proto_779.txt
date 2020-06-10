@@ -1,0 +1,3 @@
+Index: 1577    Weight: 0.49
+Index: 1617    Weight: 0.26
+Index: 4114    Weight: 0.25

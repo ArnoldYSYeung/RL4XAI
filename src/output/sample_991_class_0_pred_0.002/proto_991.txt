@@ -1,0 +1,3 @@
+Index: 1965    Weight: 0.44
+Index: 2506    Weight: 0.43
+Index: 5203    Weight: 0.13

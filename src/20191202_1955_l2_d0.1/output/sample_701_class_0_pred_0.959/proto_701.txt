@@ -1,0 +1,3 @@
+Index: 1044    Weight: 0.42
+Index: 4241    Weight: 0.22
+Index: 2656    Weight: 0.36

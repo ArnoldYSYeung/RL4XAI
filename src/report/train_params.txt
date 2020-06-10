@@ -1,0 +1,1 @@
+{'learning_rate': 0.0075, 'learning_decay': 0.9, 'num_epochs': 300, 'batch_size': 256, 'save_n_epoch': 10, 'loss_fcn': 'binary_crossentropy', 'report_metrics': ['accuracy'], 'plot_filename': 'training_plot', 'test_filename': 'test_report', 'report_dir': './report/'}

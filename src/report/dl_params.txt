@@ -1,0 +1,1 @@
+{'labels': ['a', 'me'], 'label_type': 'int', 'presorted': True, 'file_locs': ['/h/arnold/Desktop/kuzushiji-49/0', '/h/arnold/Desktop/kuzushiji-49/33'], 'file_exten': '.png', 'set_ratio': [0.8, 0.2], 'batch_size': 256, 'target_size': (28, 28), 'balanced': True, 'grayscale': True, 'superspeedmode': False}

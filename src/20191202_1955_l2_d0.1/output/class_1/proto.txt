@@ -1,0 +1,5 @@
+Index: 4325    Weight: 0.26
+Index: 2155    Weight: 0.21
+Index: 3486    Weight: 0.16
+Index: 1466    Weight: 0.18
+Index: 222    Weight: 0.18

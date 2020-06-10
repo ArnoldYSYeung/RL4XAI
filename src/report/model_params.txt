@@ -1,0 +1,1 @@
+{'input_size': (28, 28, 3), 'num_filters': 3, 'filter_size': (5, 5), 'stride': 1, 'padding': 'same', 'conv_activation': 'relu', 'pool_size': (2, 2), 'dropout': 0, 'num_conv_layers': 1, 'output_dim': 1, 'fc_activation': 'sigmoid'}

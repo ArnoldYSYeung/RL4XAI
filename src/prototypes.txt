@@ -1,0 +1,19 @@
+WALTER : I think the images on the left represent the sun.  The smaller images on the right are the 3 most similar images that I've seen before, when compared to each of these images.  The ground-truth labels of these images are below each one.
+ 
+ 
+WALTER : OK, I just checked the labels for the images on the left.  I'm correct :)  They all represent the sun!
+
+WALTER : I think the images on the left represent the moon.  The smaller images on the right are the 3 most similar images that I've seen before, when compared to each of these images.  The ground-truth labels of these images are below each one.
+ 
+ 
+WALTER : OK, I just checked the labels for the images on the left.  I'm correct :)  They all represent the moon!
+
+WALTER : I think the images on the left represent the moon.  The smaller images on the right are the 3 most similar images that I've seen before, when compared to each of these images.  The ground-truth labels of these images are below each one.
+ 
+ 
+WALTER : OK, I just checked the labels for the images on the left.  I'm wrong :(  They actually all represent the sun!
+
+WALTER : I think the images on the left represent the sun.  The smaller images on the right are the 3 most similar images that I've seen before, when compared to each of these images.  The ground-truth labels of these images are below each one.
+ 
+ 
+WALTER : OK, I just checked the labels for the images on the left.  I'm wrong :(  They actually all represent the moon!

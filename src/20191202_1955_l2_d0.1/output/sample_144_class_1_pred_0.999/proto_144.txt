@@ -1,0 +1,3 @@
+Index: 3281    Weight: 0.47
+Index: 5260    Weight: 0.35
+Index: 4556    Weight: 0.19

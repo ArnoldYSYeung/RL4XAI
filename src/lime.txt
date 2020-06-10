@@ -1,0 +1,15 @@
+WALTER : Hmm...These characters look like they represent the sun to me.
+WALTER : The regions highlighted in orange looks like the sun character.  The regions highlighted in pink looks like the moon character.
+WALTER : OK, I just checked the labels to these images and I'm correct :) They all represent the sun!
+
+WALTER : Hmm...These characters look like they represent the moon to me.
+WALTER : The regions highlighted in orange looks like the sun character.  The regions highlighted in pink looks like the moon character.
+WALTER : OK, I just checked the labels to these images and I'm correct :) They all represent the moon!
+
+WALTER : Hmm...These characters look like they represent the moon to me.
+WALTER : The regions highlighted in orange looks like the sun character.  The regions highlighted in pink looks like the moon character.
+WALTER : OK, I just checked the labels to these images and I'm wrong :( They actually all represent the sun!
+
+WALTER : Hmm...These characters look like they represent the sun to me.
+WALTER : The regions highlighted in orange looks like the sun character.  The regions highlighted in pink looks like the moon character.
+WALTER : OK, I just checked the labels to these images and I'm wrong :( They actually all represent the moon!

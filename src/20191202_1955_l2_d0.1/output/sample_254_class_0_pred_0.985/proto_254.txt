@@ -1,0 +1,3 @@
+Index: 903    Weight: 0.42
+Index: 97    Weight: 0.18
+Index: 1022    Weight: 0.4

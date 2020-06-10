@@ -1,0 +1,3 @@
+Index: 3741    Weight: 0.57
+Index: 1156    Weight: 0.16
+Index: 311    Weight: 0.28

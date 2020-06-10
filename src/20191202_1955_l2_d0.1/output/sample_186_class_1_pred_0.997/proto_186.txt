@@ -1,0 +1,3 @@
+Index: 2868    Weight: 0.48
+Index: 2247    Weight: 0.2
+Index: 2131    Weight: 0.32

@@ -1,0 +1,3 @@
+Index: 712    Weight: 0.49
+Index: 1871    Weight: 0.19
+Index: 962    Weight: 0.33

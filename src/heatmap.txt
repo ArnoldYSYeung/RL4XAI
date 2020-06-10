@@ -1,0 +1,15 @@
+WALTER : Hmm...These characters look like they represent the sun to me.
+WALTER : The brighter the pixels are, the more helpful I find them for making my guess.  The darker the pixels, the less helpful I find them.
+WALTER : OK, I just checked the labels to these images and I'm correct :) They all represent the sun!
+
+WALTER : Hmm...These characters look like they represent the moon to me.
+WALTER : The brighter the pixels are, the more helpful I find them for making my guess.  The darker the pixels, the less helpful I find them.
+WALTER : OK, I just checked the labels to these images and I'm correct :) They all represent the moon!
+
+WALTER : Hmm...These characters look like they represent the moon to me.
+WALTER : The brighter the pixels are, the more helpful I find them for making my guess.  The darker the pixels, the less helpful I find them.
+WALTER : OK, I just checked the labels to these images and I'm wrong :( They actually all represent the sun!
+
+WALTER : Hmm...These characters look like they represent the sun to me.
+WALTER : The brighter the pixels are, the more helpful I find them for making my guess.  The darker the pixels, the less helpful I find them.
+WALTER : OK, I just checked the labels to these images and I'm wrong :( They actually all represent the moon!
