@@ -1,7 +1,6 @@
 """
 Class for data visualization, analysis, etc.
 
-Author :                Arnold Yeung
 Date :                  February 29th, 2019
 
 """

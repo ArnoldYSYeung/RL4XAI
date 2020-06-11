@@ -1,7 +1,6 @@
 """
 Functions for data collection, processing, analysis, etc.
 
-Author :                Arnold Yeung
 Date :                  December 7th, 2019
 
 """

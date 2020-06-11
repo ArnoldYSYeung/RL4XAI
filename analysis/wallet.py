@@ -1,7 +1,6 @@
 """
 Worker ID and Payment Amount Matcher and Automated Payer
 
-Author :            Arnold YS Yeung
 Date :              January 6th, 2020
 
 """
