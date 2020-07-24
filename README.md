@@ -1,5 +1,7 @@
-# RL4XAI-NeurIPS
+# RL4XAI
 This repository contains the files and data for RL4XAI.
+
+A released version of this work (ICML 2020 Workshop on Human Intrepretability in Machine Learning) may be found here: https://arxiv.org/abs/2007.09028
 
 There are two main directories:
 - `./src/` contains files for building the Convolutional Neural Network and for generating the explanations from 3 different explainers
