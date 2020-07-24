@@ -1,6 +1,8 @@
 # RL4XAI
 This repository contains the files and data for RL4XAI.
 
+<img src="https://github.com/ArnoldYSYeung/RL4XAI/blob/master/images/feedback_loop.png" width="600"/>
+
 Released versions of this work may be found here: 
 - <strong><a href="https://arxiv.org/abs/2007.09028">Sequential Explanations for Mental Model-Based Policies</a></strong> (ICML 2020 Workshop on Human Intrepretability in Machine Learning)
 
