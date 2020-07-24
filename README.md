@@ -2,7 +2,7 @@
 This repository contains the files and data for RL4XAI.
 
 Released versions of this work may be found here: 
-- <strong><a href="https://arxiv.org/abs/2007.09028">Sequential Explanations for Mental Model-Based Policies"</a></strong> (ICML 2020 Workshop on Human Intrepretability in Machine Learning)
+- <strong><a href="https://arxiv.org/abs/2007.09028">Sequential Explanations for Mental Model-Based Policies</a></strong> (ICML 2020 Workshop on Human Intrepretability in Machine Learning)
 
 There are two main directories:
 - `./src/` contains files for building the Convolutional Neural Network and for generating the explanations from 3 different explainers
