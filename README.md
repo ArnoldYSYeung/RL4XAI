@@ -22,4 +22,4 @@ Dependencies for the pipeline in each directory are listed in their respective `
 ## Acknowledgements
 This work is co-authored by Arnold YS Yeung, Shalmali Joshi, Joseph Jay Williams, and Frank Rudzicz.  Sam Maldonado provided support through the set up of the MOOClet server for data collection.
 
-This work is sponsored by the Electronics and Telecommunications Research Institute (ETRI) of the Republic of Korea.
+This work is sponsored by the <a href="https://www.etri.re.kr/eng/main/main.etri">Electronics and Telecommunications Research Institute (ETRI)</a> of the Republic of Korea.
