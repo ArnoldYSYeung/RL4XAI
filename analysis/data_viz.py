@@ -709,6 +709,7 @@ class Experiment():
             - error of each
             - mean difference
             - effect size between means
+            - p-value between means
         """
         
         scores = {}
@@ -729,11 +730,13 @@ class Experiment():
         exp_mean, exp_err = self.experimental.plot_progress_scores(score_names=[variable],
                                                                    mean=True, err=err, plot=False,
                                                                    normalized=normalized)
-        
-        if err == 'std':
+        if err == "std":
             baseline_std = baseline_err
             exp_std = exp_err
-        
+            
+        baseline_std = baseline_std[variable].to_list()
+        exp_std = exp_std[variable].to_list()
+                    
         #   count the number of samples for each iteration
         scores['baseline_count'] = []
         scores['exp_count'] = []
@@ -752,9 +755,19 @@ class Experiment():
         
         scores['effect_size'] = calculate_cohens_d(count=[np.asarray(scores['exp_count']), np.asarray(scores['baseline_count'])],
                                                    mean=[np.asarray(scores['exp_mean']), np.asarray(scores['baseline_mean'])],
-                                                   std=[np.asarray(exp_std[variable].to_list()), np.asarray(baseline_std[variable].to_list())]
+                                                   std=[np.asarray(exp_std), np.asarray(baseline_std)]
                                                    )
-                
+        
+        #   compute the p_value for each iteration
+        scores['p_value'] = []
+        for iteration in range(len(scores['exp_mean'])):
+            scores['p_value'].append(ttest_ind_from_stats(scores['exp_mean'][iteration],
+                                                          exp_std[iteration],
+                                                          scores['exp_count'][iteration],
+                                                          scores['baseline_mean'][iteration],
+                                                          baseline_std[iteration],
+                                                          scores['baseline_count'][iteration])[1])
+        
         scores = pd.DataFrame.from_dict(scores)
         
         if plot:
@@ -780,6 +793,7 @@ class Experiment():
             ax.legend(loc='lower right')
         
         return scores
+    
     
     def compare_scores_per_action(self, variable, err="std"):
         """
